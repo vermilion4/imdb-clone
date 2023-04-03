@@ -1,10 +1,9 @@
 {
-  "extends": "next/core-web-vitals",
   "no-html-link-for-pages": [
     "error",
     {
       "pagesDir": "app"
     }
-  ]
+  ],
+  "extends": "next/core-web-vitals"
 }
-
