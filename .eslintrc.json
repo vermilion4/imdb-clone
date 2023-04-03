@@ -1,9 +1,11 @@
 {
-  "no-html-link-for-pages": [
-    "error",
-    {
-      "pagesDir": "app"
-    }
-  ],
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-html-link-for-pages": [
+      "error",
+      {
+        "pagesDir": "app"
+      }
+    ]
+  }
 }
