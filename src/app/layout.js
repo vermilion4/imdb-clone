@@ -7,7 +7,8 @@ import Providers from './Providers';
 export const metadata = {
   title: 'IMDb',
   description: 'IMDb clone using Next and Tailwind',
-  viewport: 'width=device-width, initial-scale=1'
+  viewport: 'width=device-width, initial-scale=1',
+  favicon: '/favicon.ico'
 };
 
 export default function RootLayout ({ children })
