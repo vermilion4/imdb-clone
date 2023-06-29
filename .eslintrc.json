@@ -4,7 +4,7 @@
     "no-html-link-for-pages": [
       "error",
       {
-        "pagesDir": "app"
+        "pagesDir": "./src/app"
       }
     ]
   }
